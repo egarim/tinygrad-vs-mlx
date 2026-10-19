@@ -1,0 +1,191 @@
+[
+ {
+  "framework": "MLX",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 0.764,
+  "tflops": 2.81
+ },
+ {
+  "framework": "MLX",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 2.33,
+  "tflops": 7.37
+ },
+ {
+  "framework": "MLX",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 16.482,
+  "tflops": 8.34
+ },
+ {
+  "framework": "MLX",
+  "dtype": "float16",
+  "n": 1024,
+  "ms": 0.461,
+  "tflops": 4.66
+ },
+ {
+  "framework": "MLX",
+  "dtype": "float16",
+  "n": 2048,
+  "ms": 2.062,
+  "tflops": 8.33
+ },
+ {
+  "framework": "MLX",
+  "dtype": "float16",
+  "n": 4096,
+  "ms": 14.772,
+  "tflops": 9.3
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 0.805,
+  "tflops": 2.67
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 2.264,
+  "tflops": 7.59
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 16.43,
+  "tflops": 8.37
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float16",
+  "n": 1024,
+  "ms": 0.553,
+  "tflops": 3.88
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float16",
+  "n": 2048,
+  "ms": 2.132,
+  "tflops": 8.06
+ },
+ {
+  "framework": "PyTorch (MPS)",
+  "dtype": "float16",
+  "n": 4096,
+  "ms": 14.94,
+  "tflops": 9.2
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 2.606,
+  "tflops": 0.82
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 7.805,
+  "tflops": 2.2
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 25.182,
+  "tflops": 5.46
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float16",
+  "n": 1024,
+  "ms": 2.577,
+  "tflops": 0.83
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float16",
+  "n": 2048,
+  "ms": 4.362,
+  "tflops": 3.94
+ },
+ {
+  "framework": "tinygrad",
+  "dtype": "float16",
+  "n": 4096,
+  "ms": 19.545,
+  "tflops": 7.03
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 0.745,
+  "tflops": 2.88
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 3.051,
+  "tflops": 5.63
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 23.811,
+  "tflops": 5.77
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float16",
+  "n": 1024,
+  "ms": 0.59,
+  "tflops": 3.64
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float16",
+  "n": 2048,
+  "ms": 2.139,
+  "tflops": 8.03
+ },
+ {
+  "framework": "tinygrad + TinyJit",
+  "dtype": "float16",
+  "n": 4096,
+  "ms": 14.521,
+  "tflops": 9.46
+ },
+ {
+  "framework": "NumPy (CPU)",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 1.223,
+  "tflops": 1.76
+ },
+ {
+  "framework": "NumPy (CPU)",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 9.253,
+  "tflops": 1.86
+ },
+ {
+  "framework": "NumPy (CPU)",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 80.176,
+  "tflops": 1.71
+ }
+]

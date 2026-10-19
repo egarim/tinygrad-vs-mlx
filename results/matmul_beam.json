@@ -1,0 +1,44 @@
+[
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float32",
+  "n": 1024,
+  "ms": 0.824,
+  "tflops": 2.6
+ },
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float32",
+  "n": 2048,
+  "ms": 2.261,
+  "tflops": 7.6
+ },
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float32",
+  "n": 4096,
+  "ms": 15.992,
+  "tflops": 8.59
+ },
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float16",
+  "n": 1024,
+  "ms": 0.82,
+  "tflops": 2.62
+ },
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float16",
+  "n": 2048,
+  "ms": 2.661,
+  "tflops": 6.46
+ },
+ {
+  "framework": "tinygrad + TinyJit + BEAM=2",
+  "dtype": "float16",
+  "n": 4096,
+  "ms": 14.408,
+  "tflops": 9.54
+ }
+]
